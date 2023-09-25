@@ -49,7 +49,7 @@ LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
 #define out 13
 #define bulb 10
 int count = 0;
-const int ct = 9;
+const int ct = 9; //initialize PWM(9) as AnalogWrite to control brightness of lcd 
 
 void setup()
 {
