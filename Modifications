@@ -1,5 +1,5 @@
 
-Modifications done from the above 
+Modifications done.
 -> made a connection for analogWrite control of LCD Display(16x2) without I2C module by connecting V0 of LCD display to Digitaal PWM(9), and use analogWrite to initilaize the brightness as required.
 -> If LCD Display(16x2) with I2C module is used the above step is neglected, use the Potentiometer behind to vary the brightness of display as required
 -> Used an IoT platform to display the real-time updates.
